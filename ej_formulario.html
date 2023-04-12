@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Formulario</title>
+    <style>
+        form {
+            display: block;
+            margin-top: 0em;
+        }
+    </style>
+</head>
+<body>
+<!--Cree un Formulario con los campos que se proponen a continuacion-->
+<!--Agregue el atributo legend-->
+
+<!--Si tienes dudas de como hacer un formulario, puedes consultar:
+    https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
+
+<h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
+<form id="Formulario_suscripcion">
+<p>
+<label for="Nombre">Nombre:</label><input type="text" name="Nombre" placeholder="Nombre" id="Nombre"></input>
+</p>
+<p>
+<label for="Apellido">Apellido:</label><input type="text" name="Apellido" placeholder="Apellido" id="Nombre"></input>
+</p>
+<p>
+Sexo: <label for="Sexo">masculino</label><input type="radio" name="Sexo" value =masculino id="masculino">
+<label for="Sexo">Femenino</label><input type="radio" name="Sexo" value =femenino>
+</p>
+<p>
+<label for="Edad">Edad:</label><input type="number" name="edad" id= "edad"></input>
+</p>
+<p>
+    <label for="Email">Email:</label><input type="Email" name="Email"placeholder="Email@dominio.com" id="Email"></input>
+</p>
+<p>
+    <label for="Usuario">Usuario:</label><input type="text" name="Usuario"placeholder="Usuario" id="Usuario"></input>
+</p>
+<p>
+    <label for="Pass">Password:</label><input type="Password" name="Pass" placeholder="Password" id="Pass"></input>
+</p>
+<p>
+    <label for="Confirmar_Password">Confirmar Password:</label><input type="Password" name="Confirmar_Password" placeholder="Password"id="Confirmar_Pass"></input>
+</p>
+
+Tipo de servicio: 
+<label for="Free">Free</label><input type="checkbox" name="Tipo_servicio" value =free id="Free ">
+<label for="Standard">Standard</label> / Standard <input type="checkbox" name="Tipo_servicio" value =Standard id="Standard">
+<label for="Premium">Premium</label> / Premium<input type="checkbox" name="Tipo_servicio" value =Premium id="Premium">
+<p>
+    <label for="Tema:"></label>
+<select id="Tema">
+    <option value="Política"> Política</option>
+    <option value="Negocios">Negocios </option>
+    <option value="Tecnología">Tecnología</option>
+    <option value="Salud">Salud</option>
+
+</select>
+</p>
+<p>
+    <label for="comentario">Agregue un comentario:<textarea id="comentario"> </textarea>
+</p>
+<p>
+    <button> Boton de Enviar </button> 
+</p>
+</form>
+</body>
+</html>
